@@ -57,16 +57,13 @@ export interface Database {
         Row: {
           user_id: string
           username: string
-          username: string
         }
         Insert: {
           user_id: string
           username: string
-          username: string
         }
         Update: {
           user_id?: string
-          username?: string
           username?: string
         }
         Relationships: [
